@@ -63,7 +63,7 @@ function Header() {
                                 </li>
                                 <li className='mx-4'><a href="">Archive</a></li>
                                 <li className='mx-4'><a href="#blog">Blog</a></li>
-                                <li className='mx-4'><a href="#trending">Latest newssssss</a></li>
+                                <li className='mx-4'><a href="#trending">Latest newsss</a></li>
                                 <li className='me-4'><a href="">Contact us</a></li>
                             </div>
                         </div>
