@@ -1,0 +1,4138 @@
+@import "breakpoints";
+
+@include xs {
+
+    .header {
+        &-top {
+            .social-icons {
+                ul {
+                    justify-content: center;
+                }
+            }
+
+            .search {
+                display: none;
+            }
+        }
+
+        &-bottom {
+            display: none;
+        }
+    }
+
+    .cards {
+
+        &-top {
+            margin-bottom: 50px;
+
+            &-left {
+                &-img{
+                    width: inherit;
+                    height: inherit;
+                }
+                &-text {
+                    width: 90%;
+                    padding: 20px;
+
+                    .sub-heading {
+                        a {
+                            font-size: 11px;
+                        }
+                    }
+
+                    h3 {
+                        a {
+                            font-size: 1.05rem;
+                        }
+                    }
+
+                    p {
+                        font-size: 12px;
+                    }
+                }
+            }
+
+            &-mid {
+                &-img{
+                    width: inherit;
+                    height: inherit;
+                }
+                &-text {
+                    h3 {
+                        a {
+                            font-size: 1.2rem;
+                        }
+                    }
+                }
+            }
+
+            &-right {
+                &-img{
+                    width: inherit;
+                    height: inherit;
+                }
+                &-text {
+                    padding: 5px 8px;
+
+                    h6 {
+                        a {
+                            font-size: 16px;
+                        }
+                    }
+                }
+            }
+        }
+
+        &-bottom {
+            &-left {
+                &-img{
+                    width: inherit;
+                    height: inherit;
+                }
+                &-text {
+                    padding: 20px;
+
+                    h3 {
+                        a {
+                            font-size: 16px;
+                        }
+                    }
+                }
+            }
+            &-right{
+                &-img{
+                    width: inherit;
+                    height: inherit;
+                }
+            }
+        }
+    }
+
+    .trending {
+        padding: 60px 0;
+
+        &-header {
+            padding-bottom: 40px;
+
+            h3 {
+                a {
+                    font-size: 1.2rem;
+                }
+            }
+
+            p {
+                font-size: 12px;
+            }
+        }
+
+        &-card {
+            &-text {
+                margin-top: 0;
+                right: 0;
+                padding: 20px;
+
+                h4 {
+                    a {
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+    }
+
+    .picks {
+        &-header {
+            h3 {
+                a {
+                    font-size: 1.2rem;
+                }
+            }
+
+            p {
+                font-size: 12px;
+            }
+        }
+
+        &-left {
+            &-img{
+                width: inherit;
+                height: inherit;
+            }
+            &-text {
+                width: 90%;
+                padding: 20px;
+
+                h3 {
+                    a {
+                        font-size: 16px;
+                    }
+                }
+
+                p {
+                    font-size: 12px;
+                }
+            }
+        }
+
+        &-right {
+            &-img{
+                width: inherit;
+                height: inherit;
+            }
+
+            &-text {
+                p {
+                    font-size: 15px;
+                }
+
+                padding: 0 25px 0 0;
+            }
+        }
+    }
+
+    .national {
+        padding: 60px 0;
+
+        &-header {
+            padding-bottom: 40px;
+
+            h3 {
+                a {
+                    font-size: 1.2rem;
+                }
+            }
+
+            p {
+                font-size: 14px;
+            }
+        }
+
+        &-left {
+            margin-bottom: 30px;
+            &-img{
+                width: inherit;
+                height: inherit;
+            }
+
+
+            &-text {
+                margin: 0;
+                right: 0;
+                width: 100%;
+                padding: 20px;
+            }
+
+            .sub-heading {
+                font-size: 13px;
+            }
+
+            h3 {
+                a {
+                    font-size: 18px;
+                }
+            }
+
+            p {
+                a {
+                    font-size: 13px;
+                }
+            }
+        }
+
+        &-right {
+            margin-bottom: 30px;
+            &-img{
+                width: inherit;
+                height: inherit;
+            }
+
+
+            &-text {
+                h4 {
+                    a {
+                        font-size: 1.05rem;
+                    }
+                }
+
+                p {
+                    font-size: 13px;
+                }
+            }
+        }
+    }
+
+    .sports {
+        padding: 60px 0;
+
+        &-header {
+            h3 {
+                a {
+                    font-size: 1.2rem;
+                }
+            }
+
+            p {
+                font-size: 12px;
+            }
+        }
+
+        &-left {
+            &-img{
+                width: inherit;
+                height: inherit;
+            }
+
+            &-text {
+                padding: 20px;
+
+                .sub-heading {
+                    a {
+                        font-size: 13px;
+                    }
+                }
+
+                h4 {
+                    a {
+                        font-size: 18px;
+                    }
+                }
+
+                p {
+                    a {
+                        font-size: 13px;
+                    }
+                }
+            }
+        }
+
+        &-right {
+            &-img{
+                width: inherit;
+                height: inherit;
+            }
+
+            &-text {
+                h4 {
+                    a {
+                        font-size: 1rem;
+                    }
+                }
+
+                p {
+                    a {
+                        font-size: 13px;
+                    }
+                }
+            }
+        }
+    }
+
+    .politics {
+        padding: 60px 0;
+
+        &-header {
+            h3 {
+                a {
+                    font-size: 1.2rem;
+                }
+            }
+
+            p {
+                font-size: 12px;
+            }
+        }
+
+        &-left {
+            &-img{
+                width: inherit;
+                height: inherit;
+            }
+
+            &-text {
+                padding: 20px;
+
+                .sub-heading {
+                    a {
+                        font-size: 13px;
+                    }
+                }
+
+                h4 {
+                    a {
+                        font-size: 18px;
+                    }
+                }
+
+                p {
+                    a {
+                        font-size: 13px;
+                    }
+                }
+            }
+        }
+
+        &-right {
+            &-img{
+                width: inherit;
+                height: inherit;
+            }
+
+            &-text {
+                h4 {
+                    a {
+                        font-size: 1rem;
+                    }
+                }
+
+                p {
+                    a {
+                        font-size: 13px;
+                    }
+                }
+            }
+        }
+    }
+
+    .international {
+        padding: 6% 0;
+
+        &-header {
+            h3 {
+                a {
+                    font-size: 1.2rem;
+                }
+            }
+
+            p {
+                font-size: 12px;
+            }
+        }
+
+        &-left {
+            margin-bottom: 30px;
+            &-img{
+                width: inherit;
+                height: inherit;
+            }
+
+            &-text {
+                margin: 0;
+                right: 0;
+                width: 100%;
+                padding: 20px;
+            }
+
+            .sub-heading {
+                font-size: 13px;
+            }
+
+            h3 {
+                a {
+                    font-size: 18px;
+                }
+            }
+
+            p {
+                a {
+                    font-size: 13px;
+                }
+            }
+        }
+
+        &-right {
+            &-img{
+                width: inherit;
+                height: inherit;
+            }
+
+            &-text {
+                h4 {
+                    a {
+                        font-size: 1.05rem;
+                    }
+                }
+
+                p {
+                    font-size: 13px;
+                }
+            }
+        }
+    }
+
+    .footer {
+        padding: 25px 0;
+        h5{
+            line-height: 20px;
+            font-size: 13px;
+        }
+            &-logo {
+                margin: auto;
+                margin-bottom: 14px;
+                width: 50%;
+                padding: 0;
+            }
+            &-contact{
+                margin-bottom: 14px;
+            }
+            &-icon{
+                width: 70%;
+                margin-bottom: 14px !important;
+                margin: auto;
+                li{
+                    a{
+                        font-size: 18px;
+                    }
+                }
+            }
+            &-designer{
+                width: 70%;
+                margin: auto;
+                
+            }
+        }
+
+
+    .box {
+        width: 40px;
+        padding: 6px;
+
+        a {
+            font-size: 12px;
+        }
+    }
+
+    .interChild {
+        &-left {
+            &-header {
+                h4 {
+                    a {
+                        font-size: 1.25rem !important;
+                    }
+                }
+            }
+
+            .quote {
+                margin: 18px 0 !important;
+
+                &-inner {
+                    p {
+                        font-size: 14px !important;
+                    }
+                }
+            }
+
+            &-text {
+                p {
+                    font-size: 15px !important;
+                }
+            }
+        }
+
+        &-right {
+            .category {
+                padding: 18px !important;
+
+                &-header {
+                    h5 {
+                        font-size: 1.1rem;
+                        margin-bottom: 18px;
+                        padding-bottom: 18px;
+                    }
+                }
+
+                ul {
+                    li {
+                        a {
+                            font-size: 1rem;
+                        }
+                    }
+                }
+            }
+
+            .recent {
+                padding: 18px !important;
+
+                &-header {
+                    h5 {
+                        font-size: 1.1rem;
+                        margin-bottom: 18px;
+                        padding-bottom: 18px;
+                    }
+                }
+
+                &-text {
+                    margin-top: 18px;
+                }
+            }
+        }
+    }
+
+    .admin {
+
+        .col-md-5 {
+            width: 100%;
+
+            .logo {
+                width: 70%;
+                padding: 16px 16px;
+                margin: auto;
+            }
+        }
+
+        .col-md-7 {
+            width: 100%;
+
+            .admin-login {
+                border-top: 1px solid #f0e9ff;
+                border-left: 0;
+                padding: 10px 18px;
+
+                &-header {
+                    padding: 16px 0;
+
+                    h4 {
+                        font-size: 1.2rem;
+                    }
+
+                    h6 {
+                        font-size: 0.7rem;
+                    }
+                }
+
+                &-form {
+                    padding: 25px 0;
+
+                    input {
+                        margin-bottom: 20px;
+                        padding: 3px 8px;
+                        border-radius: 20px;
+                        font-size: 14px;
+                    }
+                }
+
+                .submit {
+                    input {
+                        padding: 6px 12px;
+                        font-size: 14px;
+                    }
+                }
+
+                .forget-password {
+                    h6 {
+                        a {
+                            font-size: 13px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .forget {
+        .col-md-5 {
+            width: 100%;
+
+            .logo {
+                width: 70%;
+                padding: 16px 16px;
+                margin: auto;
+            }
+        }
+
+        .col-md-7 {
+            width: 100%;
+
+            .forget-login {
+                border-top: 1px solid #f0e9ff;
+                border-left: 0;
+                padding: 10px 18px;
+
+                &-header {
+                    padding: 16px 0;
+
+                    h4 {
+                        font-size: 1.2rem;
+                    }
+
+                    h6 {
+                        font-size: 0.7rem;
+                    }
+                }
+
+                &-form {
+                    padding: 25px 0;
+
+                    input {
+                        margin-bottom: 20px;
+                        padding: 3px 8px;
+                        border-radius: 20px;
+                        font-size: 14px;
+                    }
+                }
+
+                .submit {
+                    input {
+                        padding: 6px 12px;
+                        font-size: 14px;
+                    }
+                }
+
+                .forget-password {
+                    h6 {
+                        a {
+                            font-size: 13px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .reset {
+        .col-md-5 {
+            width: 100%;
+
+            .logo {
+                width: 70%;
+                padding: 16px 16px;
+                margin: auto;
+            }
+        }
+
+        .col-md-7 {
+            width: 100%;
+
+            .reset-login {
+                border-top: 1px solid #f0e9ff;
+                border-left: 0;
+                padding: 10px 18px;
+
+                &-header {
+                    padding: 16px 0;
+
+                    h4 {
+                        font-size: 1.2rem;
+                    }
+
+                    h6 {
+                        font-size: 0.7rem;
+                    }
+                }
+
+                &-form {
+                    padding: 25px 0;
+
+                    input {
+                        margin-bottom: 20px;
+                        padding: 3px 8px;
+                        border-radius: 20px;
+                        font-size: 14px;
+                    }
+                }
+
+                .submit {
+                    input {
+                        padding: 6px 12px;
+                        font-size: 14px;
+                    }
+                }
+
+                .forget-password {
+                    h6 {
+                        a {
+                            font-size: 13px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .change {
+        .col-md-5 {
+            width: 100%;
+
+            .logo {
+                width: 70%;
+                padding: 16px 16px;
+                margin: auto;
+            }
+        }
+
+        .col-md-7 {
+            width: 100%;
+
+            .change-login {
+                border-top: 1px solid #f0e9ff;
+                border-left: 0;
+                padding: 10px 18px;
+
+                &-header {
+                    padding: 16px 0;
+
+                    h4 {
+                        font-size: 1.2rem;
+                    }
+
+                    h6 {
+                        font-size: 0.7rem;
+                    }
+                }
+
+                &-form {
+                    padding: 25px 0;
+
+                    input {
+                        margin-bottom: 20px;
+                        padding: 3px 8px;
+                        border-radius: 20px;
+                        font-size: 14px;
+                    }
+                }
+
+                .submit {
+                    input {
+                        padding: 6px 12px;
+                        font-size: 14px;
+                    }
+                }
+
+                .forget-password {
+                    h6 {
+                        a {
+                            font-size: 13px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .dashboard {
+        .gc--1-of-3 {
+            width: 30%;
+            padding: 0 8px;
+
+            .dash-logo {
+                width: 100%;
+                margin-bottom: 10px;
+            }
+
+            .menu {
+                div {
+                    padding: 6px 12px !important;
+                    font-size: 13px;
+                    margin-bottom: 10px;
+                    font-weight: 600;
+
+                    .light {
+                        height: 5px;
+                        width: 5px;
+                        top: 17px;
+                        left: 3px;
+                    }
+                }
+            }
+        }
+
+        .gc--2-of-3 {
+            width: 70%;
+
+            ul {
+                li {
+                    .cards {
+                        padding: 8px 14px;
+
+                        &-header {
+                            margin-bottom: 14px;
+
+                            h4 {
+                                font-size: 17px;
+                            }
+                        }
+
+                        &-top {
+                            &-left {
+                                padding: 16px 20px;
+
+                                .header {
+                                    margin-bottom: 14px;
+
+                                    h6 {
+                                        font-size: 14px !important;
+                                    }
+                                }
+
+                                .g-4 {
+                                    --bs-gutter-y: 0;
+                                }
+
+                                input {
+                                    width: 100%;
+                                    padding: 3px 9px;
+                                    margin-bottom: 14px;
+                                    font-size: 12px;
+                                    letter-spacing: 1px;
+                                }
+
+                                textarea {
+                                    padding: 3px 9px;
+                                    margin-bottom: 14px;
+                                    font-size: 12px;
+                                    letter-spacing: 1px;
+                                }
+                            }
+
+                            &-mid {
+                                padding: 16px 20px;
+
+                                .header {
+                                    margin-bottom: 14px;
+
+                                    h6 {
+                                        font-size: 14px !important;
+                                    }
+                                }
+
+                                .g-4 {
+                                    --bs-gutter-y: 0;
+                                }
+
+                                input {
+                                    width: 100%;
+
+                                    padding: 3px 9px;
+                                    margin-bottom: 14px;
+                                    font-size: 12px;
+                                    letter-spacing: 1px;
+                                }
+
+                                textarea {
+                                    padding: 3px 9px;
+                                    margin-bottom: 14px;
+                                    font-size: 12px;
+                                    letter-spacing: 1px;
+                                }
+                            }
+
+                            &-right-top {
+                                padding: 16px 20px;
+
+                                .header {
+                                    margin-bottom: 14px;
+
+                                    h6 {
+                                        font-size: 14px !important;
+                                    }
+                                }
+
+                                .g-4 {
+                                    --bs-gutter-y: 0;
+                                }
+
+                                input {
+                                    width: 100%;
+
+                                    padding: 3px 9px;
+                                    margin-bottom: 14px;
+                                    font-size: 12px;
+                                    letter-spacing: 1px;
+                                }
+
+                                textarea {
+                                    padding: 3px 9px;
+                                    margin-bottom: 14px;
+                                    font-size: 12px;
+                                    letter-spacing: 1px;
+                                }
+                            }
+
+                            &-right-bottom {
+                                padding: 16px 20px;
+
+                                .header {
+                                    margin-bottom: 14px;
+
+                                    h6 {
+                                        font-size: 14px !important;
+                                    }
+                                }
+
+                                .g-4 {
+                                    --bs-gutter-y: 0;
+                                }
+
+                                input {
+                                    width: 100%;
+                                    padding: 3px 9px;
+                                    margin-bottom: 14px;
+                                    font-size: 12px;
+                                    letter-spacing: 1px;
+                                }
+
+                                textarea {
+                                    padding: 3px 9px;
+                                    margin-bottom: 14px;
+                                    font-size: 12px;
+                                    letter-spacing: 1px;
+                                }
+                            }
+                        }
+
+                        &-bottom {
+                            &-left {
+                                padding: 16px 20px;
+
+                                .header {
+                                    margin-bottom: 14px;
+
+                                    h6 {
+                                        font-size: 14px !important;
+                                    }
+                                }
+
+                                .g-4 {
+                                    --bs-gutter-y: 0;
+                                }
+
+                                input {
+                                    width: 100%;
+                                    padding: 3px 9px;
+                                    margin-bottom: 14px;
+                                    font-size: 12px;
+                                    letter-spacing: 1px;
+                                }
+
+                                textarea {
+                                    padding: 3px 9px;
+                                    margin-bottom: 14px;
+                                    font-size: 12px;
+                                    letter-spacing: 1px;
+                                }
+                            }
+
+                            &-mid {
+                                padding: 16px 20px;
+
+                                .header {
+                                    margin-bottom: 14px;
+
+                                    h6 {
+                                        font-size: 14px !important;
+                                    }
+                                }
+
+                                .g-4 {
+                                    --bs-gutter-y: 0;
+                                }
+
+                                input {
+                                    width: 100%;
+                                    padding: 3px 9px;
+                                    margin-bottom: 14px;
+                                    font-size: 12px;
+                                    letter-spacing: 1px;
+                                }
+
+                                textarea {
+                                    padding: 3px 9px;
+                                    margin-bottom: 14px;
+                                    font-size: 12px;
+                                    letter-spacing: 1px;
+                                }
+                            }
+
+                            &-left {
+                                padding: 16px 20px;
+
+                                .header {
+                                    margin-bottom: 14px;
+
+                                    h6 {
+                                        font-size: 14px !important;
+                                    }
+                                }
+
+                                .g-4 {
+                                    --bs-gutter-y: 0;
+                                }
+
+                                input {
+                                    width: 100%;
+                                    padding: 3px 9px;
+                                    margin-bottom: 14px;
+                                    font-size: 12px;
+                                    letter-spacing: 1px;
+                                }
+
+                                textarea {
+                                    padding: 3px 9px;
+                                    margin-bottom: 14px;
+                                    font-size: 12px;
+                                    letter-spacing: 1px;
+                                }
+                            }
+                        }
+                    }
+
+                    .trending {
+                        padding: 8px 14px;
+
+                        &-header {
+                            margin-bottom: 14px;
+
+                            h4 {
+                                font-size: 17px;
+                            }
+                        }
+
+                        &-card {
+                            padding: 16px 20px;
+
+                            .header {
+                                margin-bottom: 14px;
+
+                                h6 {
+                                    font-size: 14px !important;
+                                }
+                            }
+
+                            .g-4 {
+                                --bs-gutter-y: 0;
+                            }
+
+                            input {
+                                width: 100%;
+                                padding: 3px 9px;
+                                margin-bottom: 14px;
+                                font-size: 12px;
+                                letter-spacing: 1px;
+                            }
+
+                            textarea {
+                                padding: 3px 9px;
+                                margin-bottom: 14px;
+                                font-size: 12px;
+                                letter-spacing: 1px;
+                            }
+                        }
+                    }
+
+                    .picks {
+                        padding: 8px 14px;
+
+                        &-header {
+                            margin-bottom: 14px;
+
+                            h4 {
+                                font-size: 17px;
+                            }
+                        }
+
+                        &-left {
+                            padding: 16px 20px;
+
+                            .header {
+                                margin-bottom: 14px;
+
+                                h6 {
+                                    font-size: 14px !important;
+                                }
+                            }
+
+                            .g-4 {
+                                --bs-gutter-y: 0;
+                            }
+
+                            input {
+                                width: 100%;
+                                padding: 3px 9px;
+                                margin-bottom: 14px;
+                                font-size: 12px;
+                                letter-spacing: 1px;
+                            }
+
+                            textarea {
+                                padding: 3px 9px;
+                                margin-bottom: 14px;
+                                font-size: 12px;
+                                letter-spacing: 1px;
+                            }
+                        }
+
+                        &-right {
+                            padding: 16px 20px;
+
+                            .header {
+                                margin-bottom: 14px;
+
+                                h6 {
+                                    font-size: 14px !important;
+                                }
+                            }
+
+                            .g-4 {
+                                --bs-gutter-y: 0;
+                            }
+
+                            input {
+                                width: 100%;
+                                padding: 3px 9px;
+                                margin-bottom: 14px;
+                                font-size: 12px;
+                                letter-spacing: 1px;
+                            }
+
+                            textarea {
+                                padding: 3px 9px;
+                                margin-bottom: 14px;
+                                font-size: 12px;
+                                letter-spacing: 1px;
+                            }
+                        }
+                    }
+
+                    .national {
+                        padding: 8px 14px;
+
+                        &-header {
+                            margin-bottom: 14px;
+
+                            h4 {
+                                font-size: 17px;
+                            }
+                        }
+
+                        &-left {
+                            padding: 16px 20px;
+
+                            .header {
+                                margin-bottom: 14px;
+
+                                h6 {
+                                    font-size: 14px !important;
+                                }
+                            }
+
+                            .g-4 {
+                                --bs-gutter-y: 0;
+                            }
+
+                            input {
+                                width: 100%;
+                                padding: 3px 9px;
+                                margin-bottom: 14px;
+                                font-size: 12px;
+                                letter-spacing: 1px;
+                            }
+
+                            textarea {
+                                padding: 3px 9px;
+                                margin-bottom: 14px;
+                                font-size: 12px;
+                                letter-spacing: 1px;
+                            }
+                        }
+                    }
+
+                    .politics {
+                        padding: 8px 14px;
+
+                        &-header {
+                            margin-bottom: 14px;
+
+                            h4 {
+                                font-size: 17px;
+                            }
+                        }
+
+                        &-left {
+                            padding: 16px 20px;
+
+                            .header {
+                                margin-bottom: 14px;
+
+                                h6 {
+                                    font-size: 14px !important;
+                                }
+                            }
+
+                            .g-4 {
+                                --bs-gutter-y: 0;
+                            }
+
+                            input {
+                                width: 100%;
+                                padding: 3px 9px;
+                                margin-bottom: 14px;
+                                font-size: 12px;
+                                letter-spacing: 1px;
+                            }
+
+                            textarea {
+                                padding: 3px 9px;
+                                margin-bottom: 14px;
+                                font-size: 12px;
+                                letter-spacing: 1px;
+                            }
+                        }
+                    }
+
+                    .travel {
+                        padding: 8px 14px;
+
+                        &-header {
+                            margin-bottom: 14px;
+
+                            h4 {
+                                font-size: 17px;
+                            }
+                        }
+
+                        &-left {
+                            padding: 16px 20px;
+
+                            .header {
+                                margin-bottom: 14px;
+
+                                h6 {
+                                    font-size: 14px !important;
+                                }
+                            }
+
+                            .g-4 {
+                                --bs-gutter-y: 0;
+                            }
+
+                            input {
+                                width: 100%;
+                                padding: 3px 9px;
+                                margin-bottom: 14px;
+                                font-size: 12px;
+                                letter-spacing: 1px;
+                            }
+
+                            textarea {
+                                padding: 3px 9px;
+                                margin-bottom: 14px;
+                                font-size: 12px;
+                                letter-spacing: 1px;
+                            }
+                        }
+
+                        &-right {
+                            padding: 16px 20px;
+
+                            .header {
+                                margin-bottom: 14px;
+
+                                h6 {
+                                    font-size: 14px !important;
+                                }
+                            }
+
+                            .g-4 {
+                                --bs-gutter-y: 0;
+                            }
+
+                            input {
+                                width: 100%;
+                                padding: 3px 9px;
+                                margin-bottom: 14px;
+                                font-size: 12px;
+                                letter-spacing: 1px;
+                            }
+
+                            textarea {
+                                padding: 3px 9px;
+                                margin-bottom: 14px;
+                                font-size: 12px;
+                                letter-spacing: 1px;
+                            }
+                        }
+                    }
+
+                    .sports {
+                        padding: 8px 14px;
+
+                        &-header {
+                            margin-bottom: 14px;
+
+                            h4 {
+                                font-size: 17px;
+                            }
+                        }
+
+                        &-left {
+                            padding: 16px 20px;
+
+                            .header {
+                                margin-bottom: 14px;
+
+                                h6 {
+                                    font-size: 14px !important;
+                                }
+                            }
+
+                            .g-4 {
+                                --bs-gutter-y: 0;
+                            }
+
+                            input {
+                                width: 100%;
+                                padding: 3px 9px;
+                                margin-bottom: 14px;
+                                font-size: 12px;
+                                letter-spacing: 1px;
+                            }
+
+                            textarea {
+                                padding: 3px 9px;
+                                margin-bottom: 14px;
+                                font-size: 12px;
+                                letter-spacing: 1px;
+                            }
+                        }
+
+                        &-right {
+                            padding: 16px 20px;
+
+                            .header {
+                                margin-bottom: 14px;
+
+                                h6 {
+                                    font-size: 14px !important;
+                                }
+                            }
+
+                            .g-4 {
+                                --bs-gutter-y: 0;
+                            }
+
+                            input {
+                                width: 100%;
+                                padding: 3px 9px;
+                                margin-bottom: 14px;
+                                font-size: 12px;
+                                letter-spacing: 1px;
+                            }
+
+                            textarea {
+                                padding: 3px 9px;
+                                margin-bottom: 14px;
+                                font-size: 12px;
+                                letter-spacing: 1px;
+                            }
+                        }
+                    }
+
+                    .international {
+                        padding: 8px 14px;
+
+                        &-header {
+                            margin-bottom: 14px;
+
+                            h4 {
+                                font-size: 17px;
+                            }
+                        }
+
+                        &-left {
+                            padding: 16px 20px;
+
+                            .header {
+                                margin-bottom: 14px;
+
+                                h6 {
+                                    font-size: 14px !important;
+                                }
+                            }
+
+                            .g-4 {
+                                --bs-gutter-y: 0;
+                            }
+
+                            input {
+                                width: 100%;
+                                padding: 3px 9px;
+                                margin-bottom: 14px;
+                                font-size: 12px;
+                                letter-spacing: 1px;
+                            }
+
+                            textarea {
+                                padding: 3px 9px;
+                                margin-bottom: 14px;
+                                font-size: 12px;
+                                letter-spacing: 1px;
+                            }
+                        }
+
+                        &-right {
+                            padding: 16px 20px;
+
+                            .header {
+                                margin-bottom: 14px;
+
+                                h6 {
+                                    font-size: 14px !important;
+                                }
+                            }
+
+                            .g-4 {
+                                --bs-gutter-y: 0;
+                            }
+
+                            input {
+                                width: 100%;
+                                padding: 3px 9px;
+                                margin-bottom: 14px;
+                                font-size: 12px;
+                                letter-spacing: 1px;
+                            }
+
+                            textarea {
+                                padding: 3px 9px;
+                                margin-bottom: 14px;
+                                font-size: 12px;
+                                letter-spacing: 1px;
+                            }
+                        }
+                    }
+
+                    .banner {
+                        padding: 8px 14px;
+
+                        &-header {
+                            margin-bottom: 14px;
+
+                            h4 {
+                                font-size: 17px;
+                            }
+                        }
+
+                        &-img {
+                            padding: 16px 20px;
+
+                            .header {
+                                margin-bottom: 14px;
+
+                                h6 {
+                                    font-size: 14px !important;
+                                }
+                            }
+
+                            .g-4 {
+                                --bs-gutter-y: 0;
+                            }
+
+                            input {
+                                width: 100%;
+                                padding: 3px 9px;
+                                margin-bottom: 14px;
+                                font-size: 12px;
+                                letter-spacing: 1px;
+                            }
+                        }
+
+
+                    }
+                }
+            }
+        }
+    }
+
+    .update {
+        &-form {
+            .g-4 {
+                --bs-gutter-y: 0;
+            }
+
+            padding: 40px !important;
+
+            p {
+                font-size: 12px;
+            }
+
+            input {
+                letter-spacing: 1px !important;
+            }
+
+            textarea {
+                letter-spacing: 1px !important;
+            }
+        }
+    }
+
+    .message {
+        &-btn {
+            right: -42px;
+            letter-spacing: 0.7px;
+            padding: 3px 15px;
+            font-size: 14px;
+            top: 70%;
+        }
+        .modal-content{
+            width: 70%;
+            margin: auto;
+            .modal-body{
+                padding: 5px 14px 14px 14px;
+                h3{
+                    font-size: 1.1rem;
+                    margin-bottom: 16px !important;
+                }
+                input{
+                    font-size: 12px;
+                    padding: 2px 8px;
+                }
+                textarea{
+                    font-size: 12px;
+                    padding: 2px 8px;
+                    margin-bottom: 10px;
+                }
+                button{
+                    font-size: 0.9rem;
+                    span{
+                        font-size: 11px;
+                    }
+                }
+            }
+        }
+    }
+
+    .main-banner{
+        .banner-img{
+            width: inherit;
+            height: inherit;
+        }
+    }
+}
+
+@include sm {
+
+    .header {
+        &-top {
+            .social-icons {
+                ul {
+                    justify-content: center;
+                }
+
+            }
+
+            .logo {
+                width: 60%;
+            }
+
+            .search {
+                display: none;
+            }
+        }
+
+        &-bottom {
+            display: none;
+        }
+    }
+
+    .cards {
+        &-top {
+            &-left {
+                &-img{
+                    width: inherit;
+                    height: inherit;
+                }
+    
+                &-text {
+                    width: 90%;
+                    padding: 30px;
+                    position: absolute;
+                    bottom: 0;
+
+                    h3 {
+                        a {
+                            font-size: 1.2rem;
+                        }
+                    }
+                }
+            }
+
+            &-right {
+                &-img{
+                    width: inherit;
+                    height: inherit;
+                }
+    
+                &-text {
+                    width: 80%;
+                    padding: 20px 25px;
+
+                    h6 {
+                        a {
+                            font-size: 16px;
+                        }
+                    }
+                }
+            }
+        }
+
+        &-bottom {
+            &-left {
+                &-img{
+                    width: inherit;
+                    height: inherit;
+                }
+    
+                &-text {
+                    padding: 25px;
+
+                    h3 {
+                        a {
+                            font-size: 18px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .trending {
+        &-header {
+            h3 {
+                a {
+                    font-size: 1.4rem;
+                }
+            }
+        }
+
+        &-card {
+            &-text {
+                padding: 20px 5px;
+                width: 100%;
+                right: 0;
+
+                h4 {
+                    a {
+                        font-size: 1.2rem;
+                    }
+                }
+            }
+        }
+    }
+
+    .picks {
+        &-header {
+            padding-bottom: 40px;
+
+            h3 {
+                a {
+                    font-size: 1.4rem;
+                }
+            }
+        }
+    }
+
+    .national {
+        padding: 70px 0;
+
+        &-header {
+            padding-bottom: 40px;
+
+            h3 {
+                a {
+                    font-size: 1.4rem;
+                }
+            }
+        }
+    }
+
+    .sports {
+        padding: 70px 0;
+
+        &-header {
+            padding-bottom: 40px;
+
+            h3 {
+                a {
+                    font-size: 1.4rem;
+                }
+            }
+        }
+
+        &-left {
+            &-text {
+                padding: 25px;
+
+                .sub-heading {
+                    a {
+                        font-size: 11px;
+                    }
+                }
+
+                h4 {
+                    a {
+                        font-size: 1.1rem;
+                    }
+                }
+            }
+        }
+
+        &-right {
+            &-text {
+                .sub-heading {
+                    a {
+                        font-size: 11px;
+                    }
+                }
+
+                h4 {
+                    a {
+                        font-size: 1rem;
+                    }
+                }
+            }
+        }
+    }
+
+    .politics {
+        padding: 70px 0;
+
+        &-header {
+            padding-bottom: 40px;
+
+            h3 {
+                a {
+                    font-size: 1.4rem;
+                }
+            }
+        }
+
+        &-left {
+            &-text {
+                padding: 25px;
+
+                .sub-heading {
+                    a {
+                        font-size: 11px;
+                    }
+                }
+
+                h4 {
+                    a {
+                        font-size: 1.1rem;
+                    }
+                }
+            }
+        }
+
+        &-right {
+            &-text {
+                .sub-heading {
+                    a {
+                        font-size: 11px;
+                    }
+                }
+
+                h4 {
+                    a {
+                        font-size: 1rem;
+                    }
+                }
+            }
+        }
+    }
+
+    .international {
+        padding: 70px 0;
+
+        &-header {
+            padding-bottom: 40px;
+
+            h3 {
+                a {
+                    font-size: 1.4rem;
+                }
+            }
+        }
+    }
+
+    .footer {
+        padding: 30px 0;
+        &-logo{
+            padding: 0 !important;
+            width: 42%;
+            margin-bottom: 20px !important;
+            margin: auto;
+        }
+        &-contact{
+            margin-bottom: 20px;
+        }
+        &-icon{
+            margin-bottom: 20px;
+            li{
+                a{
+                    font-size: 18px;
+                }
+            }
+        }
+        h5{
+            font-size: 15px;
+        }
+    }
+
+    .recent {
+        .col-md-4 {
+            width: 33.33%;
+        }
+
+        .col-md-8 {
+            width: 66.66%;
+        }
+    }
+
+    .feeds {
+        .col-md-4 {
+            width: 33.33%;
+        }
+    }
+
+    .admin {
+        .col-md-5 {
+            width: 100%;
+
+            .logo {
+                width: 60%;
+                padding: 0 16px;
+                margin: 0 auto 20px;
+            }
+        }
+
+        .col-md-7 {
+            width: 100%;
+
+            .admin-login {
+                border-top: 1px solid #f0e9ff;
+                border-left: 0;
+                padding: 10px 18px;
+
+                &-header {
+                    padding: 16px 0;
+
+                    h4 {
+                        font-size: 1.7rem;
+                    }
+
+                    h6 {
+                        font-size: 0.8rem;
+                    }
+                }
+
+                &-form {
+                    padding: 25px 0;
+
+                    input {
+                        margin-bottom: 20px;
+                        padding: 5px 10px;
+                        border-radius: 20px;
+                        font-size: 14px;
+                    }
+                }
+
+                .submit {
+                    input {
+                        padding: 6px 12px;
+                        font-size: 14px;
+                    }
+                }
+
+                .forget-password {
+                    h6 {
+                        a {
+                            font-size: 13px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .forget {
+        .col-md-5 {
+            width: 100%;
+
+            .logo {
+                width: 60%;
+                padding: 0 16px;
+                margin: 0 auto 20px;
+            }
+        }
+
+        .col-md-7 {
+            width: 100%;
+
+            .forget-login {
+                border-top: 1px solid #f0e9ff;
+                border-left: 0;
+                padding: 10px 18px;
+
+                &-header {
+                    padding: 16px 0;
+
+                    h4 {
+                        font-size: 1.7rem;
+                    }
+
+                    h6 {
+                        font-size: 0.8rem;
+                    }
+                }
+
+                &-form {
+                    padding: 25px 0;
+
+                    input {
+                        margin-bottom: 20px;
+                        padding: 5px 10px;
+                        border-radius: 20px;
+                        font-size: 14px;
+                    }
+                }
+
+                .submit {
+                    input {
+                        padding: 6px 12px;
+                        font-size: 14px;
+                    }
+                }
+
+                .forget-password {
+                    h6 {
+                        a {
+                            font-size: 13px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .reset {
+        .col-md-5 {
+            width: 100%;
+
+            .logo {
+                width: 60%;
+                padding: 0 16px;
+                margin: 0 auto 20px;
+            }
+        }
+
+        .col-md-7 {
+            width: 100%;
+
+            .reset-login {
+                border-top: 1px solid #f0e9ff;
+                border-left: 0;
+                padding: 10px 18px;
+
+                &-header {
+                    padding: 16px 0;
+
+                    h4 {
+                        font-size: 1.7rem;
+                    }
+
+                    h6 {
+                        font-size: 0.8rem;
+                    }
+                }
+
+                &-form {
+                    padding: 25px 0;
+
+                    input {
+                        margin-bottom: 20px;
+                        padding: 5px 10px;
+                        border-radius: 20px;
+                        font-size: 14px;
+                    }
+                }
+
+                .submit {
+                    input {
+                        padding: 6px 12px;
+                        font-size: 14px;
+                    }
+                }
+
+                .forget-password {
+                    h6 {
+                        a {
+                            font-size: 13px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .change {
+        .col-md-5 {
+            width: 100%;
+
+            .logo {
+                width: 60%;
+                padding: 0 16px;
+                margin: 0 auto 20px;
+            }
+        }
+
+        .col-md-7 {
+            width: 100%;
+
+            .change-login {
+                border-top: 1px solid #f0e9ff;
+                border-left: 0;
+                padding: 10px 18px;
+
+                &-header {
+                    padding: 16px 0;
+
+                    h4 {
+                        font-size: 1.7rem;
+                    }
+
+                    h6 {
+                        font-size: 0.8rem;
+                    }
+                }
+
+                &-form {
+                    padding: 25px 0;
+
+                    input {
+                        margin-bottom: 20px;
+                        padding: 5px 10px;
+                        border-radius: 20px;
+                        font-size: 14px;
+                    }
+                }
+
+                .submit {
+                    input {
+                        padding: 6px 12px;
+                        font-size: 14px;
+                    }
+                }
+
+                .forget-password {
+                    h6 {
+                        a {
+                            font-size: 13px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .message {
+        .modal-content{
+            width: 74%;
+            margin: auto;
+            .modal-body{
+                padding: 8px 20px 20px 20px;
+                h3{
+                    font-size: 1.25rem;
+                    margin-bottom: 18px !important;
+                }
+                input{
+                    font-size: 13px;
+                    padding: 4px 12px;
+                }
+                textarea{
+                    font-size: 13px;
+                    padding: 4px 12px;
+                    margin-bottom: 12px;
+                }
+                button{
+                    font-size: 1rem;
+                    span{
+                        font-size: 13px;
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+@include md {
+
+    .header {
+        &-top {
+            .search {
+                display: none;
+            }
+        }
+
+        &-bottom {
+            display: none;
+        }
+    }
+
+    .cards {
+        &-top {
+            &-left {
+                &-text {
+                    h3 {
+                        a {
+                            font-size: 1.2rem;
+                        }
+                    }
+                }
+            }
+
+            &-right {
+                &-text {
+                    h6 {
+                        a {
+                            font-size: 18px;
+                        }
+                    }
+                }
+            }
+        }
+
+        &-bottom {
+            &-left {
+                &-text {
+                    padding: 25px 10px 20px 0;
+                }
+            }
+        }
+    }
+
+    .trending {
+        &-header {
+            padding-bottom: 50px;
+
+            h3 {
+                a {
+                    font-size: 1.8rem;
+                }
+            }
+        }
+
+        &-card {
+            &-text {
+                padding: 5px;
+                width: 100%;
+                right: 0;
+
+                h4 {
+                    a {
+                        font-size: 1.2rem;
+                    }
+                }
+            }
+        }
+
+    }
+
+    .picks {
+        &-header {
+            padding-bottom: 50px;
+
+            h3 {
+                a {
+                    font-size: 1.8rem;
+                }
+            }
+        }
+
+        &-left {
+            &-text {
+                padding: 25px;
+                width: 90%;
+
+                .sub-heading {
+                    a {
+                        font-size: 11px;
+                    }
+
+                }
+
+                h3 {
+                    a {
+                        font-size: 1.1rem;
+                    }
+                }
+
+                p {
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+
+    .national {
+        padding: 70px 0;
+
+        &-header {
+            padding-bottom: 50px;
+
+            h3 {
+                a {
+                    font-size: 1.8rem;
+                }
+            }
+        }
+
+        &-left {
+            &-text {
+                margin-top: -30px;
+                padding: 30px;
+
+                .sub-heading {
+                    a {
+                        font-size: 13px;
+                    }
+                }
+
+                h3 {
+                    font-size: 1.2rem;
+                }
+            }
+        }
+
+        &-right {
+            margin-top: 30px;
+
+            .row {
+                margin-bottom: 30px;
+            }
+        }
+
+    }
+
+    .sports {
+        &-header {
+            padding-bottom: 40px;
+
+            h3 {
+                a {
+                    font-size: 1.6rem;
+                }
+            }
+        }
+
+        &-left {
+            &-text {
+                padding: 25px;
+
+                .sub-heading {
+                    a {
+                        font-size: 11px;
+                    }
+                }
+
+                h4 {
+                    a {
+                        font-size: 1.1rem;
+                    }
+                }
+            }
+        }
+
+        &-right {
+            &-text {
+                .sub-heading {
+                    a {
+                        font-size: 11px;
+                    }
+                }
+
+                h4 {
+                    a {
+                        font-size: 1rem;
+                    }
+                }
+            }
+        }
+    }
+
+    .politics {
+        &-header {
+            padding-bottom: 40px;
+
+            h3 {
+                a {
+                    font-size: 1.6rem;
+                }
+            }
+        }
+
+        &-left {
+            &-text {
+                padding: 25px;
+
+                .sub-heading {
+                    a {
+                        font-size: 11px;
+                    }
+                }
+
+                h4 {
+                    a {
+                        font-size: 1.1rem;
+                    }
+                }
+            }
+        }
+
+        &-right {
+            &-text {
+                .sub-heading {
+                    a {
+                        font-size: 11px;
+                    }
+                }
+
+                h4 {
+                    a {
+                        font-size: 1rem;
+                    }
+                }
+            }
+        }
+    }
+
+    .international {
+        padding: 70px 0;
+
+        &-header {
+            padding-bottom: 50px;
+
+            h3 {
+                a {
+                    font-size: 1.8rem;
+                }
+            }
+        }
+
+        &-left {
+            &-text {
+                margin-top: -30px;
+                padding: 30px;
+
+                .sub-heading {
+                    a {
+                        font-size: 13px;
+                    }
+                }
+
+                h3 {
+                    font-size: 1.2rem;
+                }
+            }
+        }
+
+        &-right {
+            margin-top: 30px;
+
+            .row {
+                margin-bottom: 30px;
+            }
+        }
+
+    }
+
+    .footer {
+        padding: 30px 0;
+        &-logo{
+            margin: auto;
+            width: 42%;
+            margin-bottom: 25px;
+        }
+
+    }
+
+    .interChild {
+        &-left {
+            &-header {
+                h4 {
+                    a {
+                        font-size: 1.9rem !important;
+                    }
+                }
+            }
+
+            .quote-inner {
+                p {
+                    font-size: 16px;
+                }
+            }
+
+            &-text {
+                p {
+                    font-size: 16px !important;
+                }
+            }
+        }
+    }
+
+    .admin {
+        .col-md-5 {
+            .logo {
+                padding: 0 16px;
+                margin: 0 auto 20px;
+            }
+        }
+
+        .col-md-7 {
+            .admin-login {
+                border-left: 1px solid #f0e9ff;
+                border-left: 0;
+                padding: 10px 18px;
+
+                &-header {
+                    padding: 16px 0;
+
+                    h4 {
+                        font-size: 1.8rem;
+                    }
+
+                    h6 {
+                        font-size: 0.8rem;
+                    }
+                }
+
+                &-form {
+                    padding: 50px 0;
+
+                    input {
+                        margin-bottom: 20px;
+                        padding: 8px 16px;
+                        border-radius: 20px;
+                        font-size: 16px;
+                    }
+                }
+
+                .submit {
+                    input {
+                        padding: 8px 16px;
+                        font-size: 16px;
+                    }
+                }
+
+                .forget-password {
+                    h6 {
+                        a {
+                            font-size: 14px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .forget {
+        .col-md-5 {
+            .logo {
+                padding: 0 16px;
+                margin: 0 auto 20px;
+            }
+        }
+
+        .col-md-7 {
+            .forget-login {
+                border-left: 1px solid #f0e9ff;
+                border-left: 0;
+                padding: 10px 18px;
+
+                &-header {
+                    padding: 16px 0;
+
+                    h4 {
+                        font-size: 1.8rem;
+                    }
+
+                    h6 {
+                        font-size: 0.8rem;
+                    }
+                }
+
+                &-form {
+                    padding: 50px 0;
+
+                    input {
+                        margin-bottom: 20px;
+                        padding: 8px 16px;
+                        border-radius: 20px;
+                        font-size: 16px;
+                    }
+                }
+
+                .submit {
+                    input {
+                        padding: 8px 16px;
+                        font-size: 16px;
+                    }
+                }
+
+                .forget-password {
+                    h6 {
+                        a {
+                            font-size: 14px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .reset {
+        .col-md-5 {
+            .logo {
+                padding: 0 16px;
+                margin: 0 auto 20px;
+            }
+        }
+
+        .col-md-7 {
+            .reset-login {
+                border-left: 1px solid #f0e9ff;
+                border-left: 0;
+                padding: 10px 18px;
+
+                &-header {
+                    padding: 16px 0;
+
+                    h4 {
+                        font-size: 1.8rem;
+                    }
+
+                    h6 {
+                        font-size: 0.8rem;
+                    }
+                }
+
+                &-form {
+                    padding: 50px 0;
+
+                    input {
+                        margin-bottom: 20px;
+                        padding: 8px 16px;
+                        border-radius: 20px;
+                        font-size: 16px;
+                    }
+                }
+
+                .submit {
+                    input {
+                        padding: 8px 16px;
+                        font-size: 16px;
+                    }
+                }
+
+                .forget-password {
+                    h6 {
+                        a {
+                            font-size: 14px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .change {
+        .col-md-5 {
+            .logo {
+                padding: 0 16px;
+                margin: 0 auto 20px;
+            }
+        }
+
+        .col-md-7 {
+            .change-login {
+                border-left: 1px solid #f0e9ff;
+                border-left: 0;
+                padding: 10px 18px;
+
+                &-header {
+                    padding: 16px 0;
+
+                    h4 {
+                        font-size: 1.8rem;
+                    }
+
+                    h6 {
+                        font-size: 0.8rem;
+                    }
+                }
+
+                &-form {
+                    padding: 50px 0;
+
+                    input {
+                        margin-bottom: 20px;
+                        padding: 8px 16px;
+                        border-radius: 20px;
+                        font-size: 16px;
+                    }
+                }
+
+                .submit {
+                    input {
+                        padding: 8px 16px;
+                        font-size: 16px;
+                    }
+                }
+
+                .forget-password {
+                    h6 {
+                        a {
+                            font-size: 14px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .dashboard {
+        .gc--1-of-3 {
+            width: 30%;
+            padding: 0 8px;
+
+            .dash-logo {
+                width: 100%;
+                margin-bottom: 25px;
+            }
+
+            .menu {
+                div {
+                    padding: 8px 20px !important;
+                    font-size: 14px;
+                    margin-bottom: 10px;
+                    font-weight: 600;
+
+                    .light {
+                        height: 5px;
+                        width: 5px;
+                        top: 17px;
+                        left: 8px;
+                    }
+                }
+            }
+        }
+
+        .gc--2-of-3 {
+            width: 70%;
+
+            ul {
+                li {
+                    .cards {
+                        padding: 8px 14px;
+
+                        &-header {
+                            margin-bottom: 14px;
+
+                            h4 {
+                                font-size: 17px;
+                            }
+                        }
+
+                        &-top {
+                            &-left {
+                                padding: 16px 20px;
+
+                                .header {
+                                    margin-bottom: 14px;
+
+                                    h6 {
+                                        font-size: 14px !important;
+                                    }
+                                }
+
+                                .g-4 {
+                                    --bs-gutter-y: 0;
+                                }
+
+                                input {
+                                    width: 100%;
+                                    padding: 6px 12px;
+                                    margin-bottom: 14px;
+                                    font-size: 13px;
+                                    letter-spacing: 2px;
+                                }
+
+                                textarea {
+                                    padding: 6px 12px;
+                                    margin-bottom: 14px;
+                                    font-size: 13px;
+                                    letter-spacing: 2px;
+                                }
+                            }
+
+                            &-mid {
+                                padding: 16px 20px;
+
+                                .header {
+                                    margin-bottom: 14px;
+
+                                    h6 {
+                                        font-size: 14px !important;
+                                    }
+                                }
+
+                                .g-4 {
+                                    --bs-gutter-y: 0;
+                                }
+
+                                input {
+                                    padding: 6px 12px;
+                                    margin-bottom: 14px;
+                                    font-size: 13px;
+                                    letter-spacing: 2px;
+                                }
+
+                                textarea {
+                                    padding: 6px 12px;
+                                    margin-bottom: 14px;
+                                    font-size: 13px;
+                                    letter-spacing: 2px;
+                                }
+                            }
+
+                            &-right-top {
+                                padding: 16px 20px;
+
+                                .header {
+                                    margin-bottom: 14px;
+
+                                    h6 {
+                                        font-size: 14px !important;
+                                    }
+                                }
+
+                                .g-4 {
+                                    --bs-gutter-y: 0;
+                                }
+
+                                input {
+                                    padding: 6px 12px;
+                                    margin-bottom: 14px;
+                                    font-size: 13px;
+                                    letter-spacing: 2px;
+                                }
+
+                                textarea {
+                                    padding: 6px 12px;
+                                    margin-bottom: 14px;
+                                    font-size: 13px;
+                                    letter-spacing: 2px;
+                                }
+                            }
+
+                            &-right-bottom {
+                                padding: 16px 20px;
+
+                                .header {
+                                    margin-bottom: 14px;
+
+                                    h6 {
+                                        font-size: 14px !important;
+                                    }
+                                }
+
+                                .g-4 {
+                                    --bs-gutter-y: 0;
+                                }
+
+                                input {
+                                    padding: 6px 12px;
+                                    margin-bottom: 14px;
+                                    font-size: 13px;
+                                    letter-spacing: 2px;
+                                }
+
+                                textarea {
+                                    padding: 6px 12px;
+                                    margin-bottom: 14px;
+                                    font-size: 13px;
+                                    letter-spacing: 2px;
+                                }
+                            }
+                        }
+
+                        &-bottom {
+                            &-left {
+                                padding: 16px 20px;
+
+                                .header {
+                                    margin-bottom: 14px;
+
+                                    h6 {
+                                        font-size: 14px !important;
+                                    }
+                                }
+
+                                .g-4 {
+                                    --bs-gutter-y: 0;
+                                }
+
+                                input {
+                                    width: 100%;
+                                    padding: 6px 12px;
+                                    margin-bottom: 14px;
+                                    font-size: 13px;
+                                    letter-spacing: 2px;
+                                }
+
+                                textarea {
+                                    padding: 6px 12px;
+                                    margin-bottom: 14px;
+                                    font-size: 13px;
+                                    letter-spacing: 2px;
+                                }
+                            }
+
+                            &-mid {
+                                padding: 16px 20px;
+
+                                .header {
+                                    margin-bottom: 14px;
+
+                                    h6 {
+                                        font-size: 14px !important;
+                                    }
+                                }
+
+                                .g-4 {
+                                    --bs-gutter-y: 0;
+                                }
+
+                                input {
+                                    width: 100%;
+                                    padding: 6px 12px;
+                                    margin-bottom: 14px;
+                                    font-size: 13px;
+                                    letter-spacing: 2px;
+                                }
+
+                                textarea {
+                                    padding: 6px 12px;
+                                    margin-bottom: 14px;
+                                    font-size: 13px;
+                                    letter-spacing: 2px;
+                                }
+                            }
+
+                            &-right {
+                                padding: 16px 20px;
+
+                                .header {
+                                    margin-bottom: 14px;
+
+                                    h6 {
+                                        font-size: 14px !important;
+                                    }
+                                }
+
+                                .g-4 {
+                                    --bs-gutter-y: 0;
+                                }
+
+                                input {
+                                    width: 100%;
+                                    padding: 6px 12px;
+                                    margin-bottom: 14px;
+                                    font-size: 13px;
+                                    letter-spacing: 2px;
+                                }
+
+                                textarea {
+                                    padding: 6px 12px;
+                                    margin-bottom: 14px;
+                                    font-size: 13px;
+                                    letter-spacing: 2px;
+                                }
+                            }
+                        }
+                    }
+
+                    .trending {
+                        padding: 16px 20px;
+
+                        .header {
+                            margin-bottom: 14px;
+
+                            h6 {
+                                font-size: 14px !important;
+                            }
+                        }
+
+                        .g-4 {
+                            --bs-gutter-y: 0;
+                        }
+
+                        input {
+                            width: 100%;
+                            padding: 3px 9px;
+                            margin-bottom: 14px;
+                            font-size: 12px;
+                            letter-spacing: 1px;
+                        }
+
+                        textarea {
+                            padding: 3px 9px;
+                            margin-bottom: 14px;
+                            font-size: 12px;
+                            letter-spacing: 1px;
+                        }
+                    }
+
+                    .picks {
+                        padding: 16px 20px;
+
+                        .header {
+                            margin-bottom: 14px;
+
+                            h6 {
+                                font-size: 14px !important;
+                            }
+                        }
+
+                        .g-4 {
+                            --bs-gutter-y: 0;
+                        }
+
+                        input {
+                            width: 100%;
+                            padding: 3px 9px;
+                            margin-bottom: 14px;
+                            font-size: 12px;
+                            letter-spacing: 1px;
+                        }
+
+                        textarea {
+                            padding: 3px 9px;
+                            margin-bottom: 14px;
+                            font-size: 12px;
+                            letter-spacing: 1px;
+                        }
+                    }
+
+                    .national {
+                        padding: 16px 20px;
+
+                        .header {
+                            margin-bottom: 14px;
+
+                            h6 {
+                                font-size: 14px !important;
+                            }
+                        }
+
+                        .g-4 {
+                            --bs-gutter-y: 0;
+                        }
+
+                        input {
+                            width: 100%;
+                            padding: 3px 9px;
+                            margin-bottom: 14px;
+                            font-size: 12px;
+                            letter-spacing: 1px;
+                        }
+
+                        textarea {
+                            padding: 3px 9px;
+                            margin-bottom: 14px;
+                            font-size: 12px;
+                            letter-spacing: 1px;
+                        }
+                    }
+
+                    .politics {
+                        padding: 16px 20px;
+
+                        .header {
+                            margin-bottom: 14px;
+
+                            h6 {
+                                font-size: 14px !important;
+                            }
+                        }
+
+                        .g-4 {
+                            --bs-gutter-y: 0;
+                        }
+
+                        input {
+                            width: 100%;
+                            padding: 3px 9px;
+                            margin-bottom: 14px;
+                            font-size: 12px;
+                            letter-spacing: 1px;
+                        }
+
+                        textarea {
+                            padding: 3px 9px;
+                            margin-bottom: 14px;
+                            font-size: 12px;
+                            letter-spacing: 1px;
+                        }
+                    }
+
+                    .travel {
+                        padding: 16px 20px;
+
+                        .header {
+                            margin-bottom: 14px;
+
+                            h6 {
+                                font-size: 14px !important;
+                            }
+                        }
+
+                        .g-4 {
+                            --bs-gutter-y: 0;
+                        }
+
+                        input {
+                            width: 100%;
+                            padding: 3px 9px;
+                            margin-bottom: 14px;
+                            font-size: 12px;
+                            letter-spacing: 1px;
+                        }
+
+                        textarea {
+                            padding: 3px 9px;
+                            margin-bottom: 14px;
+                            font-size: 12px;
+                            letter-spacing: 1px;
+                        }
+                    }
+
+                    .sports {
+                        padding: 16px 20px;
+
+                        .header {
+                            margin-bottom: 14px;
+
+                            h6 {
+                                font-size: 14px !important;
+                            }
+                        }
+
+                        .g-4 {
+                            --bs-gutter-y: 0;
+                        }
+
+                        input {
+                            width: 100%;
+                            padding: 3px 9px;
+                            margin-bottom: 14px;
+                            font-size: 12px;
+                            letter-spacing: 1px;
+                        }
+
+                        textarea {
+                            padding: 3px 9px;
+                            margin-bottom: 14px;
+                            font-size: 12px;
+                            letter-spacing: 1px;
+                        }
+                    }
+
+                    .international {
+                        padding: 16px 20px;
+
+                        .header {
+                            margin-bottom: 14px;
+
+                            h6 {
+                                font-size: 14px !important;
+                            }
+                        }
+
+                        .g-4 {
+                            --bs-gutter-y: 0;
+                        }
+
+                        input {
+                            width: 100%;
+                            padding: 3px 9px;
+                            margin-bottom: 14px;
+                            font-size: 12px;
+                            letter-spacing: 1px;
+                        }
+
+                        textarea {
+                            padding: 3px 9px;
+                            margin-bottom: 14px;
+                            font-size: 12px;
+                            letter-spacing: 1px;
+                        }
+                    }
+
+                    .banner {
+                        padding: 16px 20px;
+
+                        .header {
+                            margin-bottom: 14px;
+
+                            h6 {
+                                font-size: 14px !important;
+                            }
+                        }
+
+                        input {
+                            width: 100%;
+                            padding: 3px 9px;
+                            margin-bottom: 14px;
+                            font-size: 12px;
+                            letter-spacing: 1px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .update {
+        &-form {
+            padding: 16px 20px;
+
+            .header {
+                margin-bottom: 14px;
+
+                h6 {
+                    font-size: 14px !important;
+                }
+            }
+
+            .g-4 {
+                --bs-gutter-y: 0;
+            }
+
+            input {
+                width: 100%;
+                padding: 6px 12px;
+                margin-bottom: 14px;
+                font-size: 13px;
+                letter-spacing: 2px;
+            }
+
+            textarea {
+                padding: 6px 12px;
+                margin-bottom: 14px;
+                font-size: 13px;
+                letter-spacing: 2px;
+            }
+        }
+    }
+
+}
+
+@include lg {
+
+    .cards {
+        &-top {
+            &-left {
+                &-text {
+                    padding: 25px;
+
+                    h3 {
+                        a {
+                            font-size: 1.3rem;
+
+                        }
+                    }
+                }
+            }
+
+            &-mid {
+                &-text {
+                    text-align: center;
+                    padding: 30px;
+
+                    h3 {
+                        a {
+                            font-size: 1.3rem;
+
+                        }
+                    }
+                }
+            }
+        }
+
+        &-bottom {
+            &-left {
+                &-text {
+                    top: 20%;
+                }
+            }
+        }
+    }
+
+    .interChild {
+        &-left {
+            &-header {
+                h4 {
+                    a {
+                        font-size: 1.7rem !important;
+                    }
+                }
+            }
+
+            &-text {
+                p {
+                    font-size: 16px;
+                }
+            }
+        }
+
+        &-right {
+            .category {
+                &-header {
+                    h5 {
+                        font-size: 1.3rem !important;
+                    }
+                }
+            }
+
+            .recent {
+                &-header {
+                    h5 {
+                        font-size: 1.3rem !important;
+                    }
+                }
+
+                &-text {
+                    h6 {
+                        a {
+                            font-size: 16px !important;
+                        }
+                    }
+                }
+            }
+
+            .feeds {
+                &-header {
+                    h5 {
+                        font-size: 1.3rem !important;
+                    }
+                }
+            }
+        }
+    }
+
+    .trending {
+        &-header {
+            padding-bottom: 50px;
+
+            h3 {
+                a {
+                    font-size: 2rem;
+                }
+            }
+        }
+
+        &-card {
+            &-text {
+                padding: 10px 5px;
+                width: 100%;
+                right: 0;
+
+                h4 {
+                    a {
+                        font-size: 1.4rem;
+                    }
+                }
+            }
+        }
+
+    }
+
+    .picks {
+        padding-bottom: 50px;
+
+        &-header {
+            padding-bottom: 50px;
+
+            h3 {
+                a {
+                    font-size: 2rem;
+                }
+            }
+        }
+    }
+
+    .national {
+        padding: 60px 0;
+
+        &-header {
+            h3 {
+                a {
+                    font-size: 2rem;
+                }
+            }
+        }
+
+        &-left {
+            &-text {
+                padding: 30px;
+            }
+        }
+
+        &-right {
+            margin-top: 30px;
+        }
+    }
+
+    .sports {
+        &-header {
+            padding-bottom: 50px;
+
+            h3 {
+                a {
+                    font-size: 2rem;
+                }
+            }
+        }
+
+        &-left {
+            &-text {
+                padding: 30px;
+
+                .sub-heading {
+                    a {
+                        font-size: 12px;
+                    }
+                }
+
+                h4 {
+                    a {
+                        font-size: 1.2rem;
+                    }
+                }
+            }
+        }
+    }
+
+    .politics {
+        &-header {
+            padding-bottom: 50px;
+
+            h3 {
+                a {
+                    font-size: 2rem;
+                }
+            }
+        }
+
+        &-left {
+            &-text {
+                padding: 30px;
+
+                .sub-heading {
+                    a {
+                        font-size: 12px;
+                    }
+                }
+
+                h4 {
+                    a {
+                        font-size: 1.2rem;
+                    }
+                }
+            }
+        }
+    }
+
+    .international {
+        padding: 60px 0;
+
+        &-header {
+            h3 {
+                a {
+                    font-size: 2rem;
+
+                }
+            }
+        }
+
+        &-left {
+            &-text {
+                padding: 30px;
+            }
+        }
+
+        &-right {
+            margin-top: 30px;
+        }
+    }
+
+    .footer {
+        &-logo{
+            margin-bottom: 30px;
+        }
+        &-designer{
+            margin-top: 30px;
+        }
+        h5{
+            font-size: 16px;
+        }
+    }
+
+    .admin {
+        padding: 80px 0;
+        background-color: #002428;
+        margin-bottom: 40px;
+
+        .logo {
+            padding: 0 80px;
+
+        }
+
+        &-login {
+            padding: 10px 30px !important;
+            border-left: 2px solid #f0e9ff !important;
+
+            &-header {
+                h4 {
+                    font-size: 2.2rem;
+                    color: #fff;
+                    margin-bottom: 16px;
+                }
+
+                h6 {
+                    font-size: 0.8rem;
+                    color: #fff;
+                }
+            }
+
+            &-form {
+                padding: 60px 0;
+
+                input {
+                    margin-bottom: 20px;
+                    padding: 6px 12px;
+                    border-radius: 20px;
+                }
+            }
+
+            .submit {
+                text-align: center;
+
+                input {
+                    margin-bottom: 20px;
+                    padding: 6px 12px;
+                    border-radius: 20px;
+                    border: none;
+                    color: #fff;
+                    background-color: #f1444a;
+                    width: 60%;
+                }
+            }
+
+            .forget-password {
+                h6 {
+                    a {
+                        color: #fff;
+                    }
+                }
+            }
+        }
+    }
+
+    .forget {
+        padding: 80px 0;
+        background-color: #002428;
+        margin-bottom: 40px;
+
+        .logo {
+            padding: 0 80px;
+
+        }
+
+        &-login {
+            padding: 10px 30px !important;
+            border-left: 2px solid #f0e9ff !important;
+
+            &-header {
+                h4 {
+                    font-size: 2.2rem;
+                    color: #fff;
+                    margin-bottom: 16px;
+                }
+
+                h6 {
+                    font-size: 0.8rem;
+                    color: #fff;
+                }
+            }
+
+            &-form {
+                padding: 60px 0;
+
+                input {
+                    margin-bottom: 20px;
+                    padding: 6px 12px;
+                    border-radius: 20px;
+                }
+            }
+
+            .submit {
+                text-align: center;
+
+                input {
+                    margin-bottom: 20px;
+                    padding: 6px 12px;
+                    border-radius: 20px;
+                    border: none;
+                    color: #fff;
+                    background-color: #f1444a;
+                    width: 60%;
+                }
+            }
+
+            .forget-password {
+                h6 {
+                    a {
+                        color: #fff;
+                    }
+                }
+            }
+        }
+    }
+
+    .reset {
+        padding: 80px 0;
+        background-color: #002428;
+        margin-bottom: 40px;
+
+        .logo {
+            padding: 0 80px;
+
+        }
+
+        &-login {
+            padding: 10px 30px !important;
+            border-left: 2px solid #f0e9ff !important;
+
+            &-header {
+                h4 {
+                    font-size: 2.2rem;
+                    color: #fff;
+                    margin-bottom: 16px;
+                }
+
+                h6 {
+                    font-size: 0.8rem;
+                    color: #fff;
+                }
+            }
+
+            &-form {
+                padding: 60px 0;
+
+                input {
+                    margin-bottom: 20px;
+                    padding: 6px 12px;
+                    border-radius: 20px;
+                }
+            }
+
+            .submit {
+                text-align: center;
+
+                input {
+                    margin-bottom: 20px;
+                    padding: 6px 12px;
+                    border-radius: 20px;
+                    border: none;
+                    color: #fff;
+                    background-color: #f1444a;
+                    width: 60%;
+                }
+            }
+
+            .forget-password {
+                h6 {
+                    a {
+                        color: #fff;
+                    }
+                }
+            }
+        }
+    }
+
+    .change {
+        padding: 80px 0;
+        background-color: #002428;
+        margin-bottom: 40px;
+
+        .logo {
+            padding: 0 80px;
+
+        }
+
+        &-login {
+            padding: 10px 30px !important;
+            border-left: 2px solid #f0e9ff !important;
+
+            &-header {
+                h4 {
+                    font-size: 2.2rem;
+                    color: #fff;
+                    margin-bottom: 16px;
+                }
+
+                h6 {
+                    font-size: 0.8rem;
+                    color: #fff;
+                }
+            }
+
+            &-form {
+                padding: 60px 0;
+
+                input {
+                    margin-bottom: 20px;
+                    padding: 6px 12px;
+                    border-radius: 20px;
+                }
+            }
+
+            .submit {
+                text-align: center;
+
+                input {
+                    margin-bottom: 20px;
+                    padding: 6px 12px;
+                    border-radius: 20px;
+                    border: none;
+                    color: #fff;
+                    background-color: #f1444a;
+                    width: 60%;
+                }
+            }
+
+            .forget-password {
+                h6 {
+                    a {
+                        color: #fff;
+                    }
+                }
+            }
+        }
+    }
+
+    .dashboard {
+        .gc--1-of-3 {
+            width: 30%;
+            padding: 16px 16px;
+
+            .dash-logo {
+                width: 80%;
+                margin-bottom: 25px;
+            }
+
+            .menu {
+                div {
+                    padding: 10px 20px !important;
+                    font-size: 16px;
+                    margin-bottom: 20px;
+                    font-weight: 600;
+
+                    .light {
+                        height: 5px;
+                        width: 5px;
+                        top: 17px;
+                        left: 8px;
+                    }
+                }
+            }
+        }
+
+        .gc--2-of-3 {
+            width: 70%;
+
+            ul {
+                li {
+                    .cards {
+                        padding: 12px 20px;
+
+                        &-header {
+
+                            h4 {
+                                font-size: 22px;
+                            }
+                        }
+
+                        &-top {
+                            &-left {
+                                padding: 16px 20px;
+
+                                .header {
+                                    margin-bottom: 18px;
+
+                                    h6 {
+                                        font-size: 16px !important;
+                                    }
+                                }
+
+                                .g-4 {
+                                    --bs-gutter-y: 0;
+                                }
+
+                                input {
+                                    width: 100%;
+                                    padding: 6px 14px;
+                                    margin-bottom: 18px;
+                                    font-size: 14px;
+                                    letter-spacing: 2px;
+                                }
+
+                                textarea {
+                                    padding: 6px 14px;
+                                    margin-bottom: 18px;
+                                    font-size: 14px;
+                                    letter-spacing: 2px;
+                                }
+                            }
+
+                            &-mid {
+                                padding: 16px 20px;
+
+                                .header {
+                                    margin-bottom: 18px;
+
+                                    h6 {
+                                        font-size: 16px !important;
+                                    }
+                                }
+
+                                .g-4 {
+                                    --bs-gutter-y: 0;
+                                }
+
+                                input {
+                                    width: 100%;
+                                    padding: 6px 14px;
+                                    margin-bottom: 18px;
+                                    font-size: 14px;
+                                    letter-spacing: 2px;
+                                }
+
+                                textarea {
+                                    padding: 6px 14px;
+                                    margin-bottom: 18px;
+                                    font-size: 14px;
+                                    letter-spacing: 2px;
+                                }
+                            }
+
+                            &-right-top {
+                                padding: 16px 20px;
+
+                                .header {
+                                    margin-bottom: 18px;
+
+                                    h6 {
+                                        font-size: 16px !important;
+                                    }
+                                }
+
+                                .g-4 {
+                                    --bs-gutter-y: 0;
+                                }
+
+                                input {
+                                    width: 100%;
+                                    padding: 6px 14px;
+                                    margin-bottom: 18px;
+                                    font-size: 14px;
+                                    letter-spacing: 2px;
+                                }
+
+                                textarea {
+                                    padding: 6px 14px;
+                                    margin-bottom: 18px;
+                                    font-size: 14px;
+                                    letter-spacing: 2px;
+                                }
+                            }
+
+                            &-right-bottom {
+                                padding: 16px 20px;
+
+                                .header {
+                                    margin-bottom: 18px;
+
+                                    h6 {
+                                        font-size: 16px !important;
+                                    }
+                                }
+
+                                .g-4 {
+                                    --bs-gutter-y: 0;
+                                }
+
+                                input {
+                                    width: 100%;
+                                    padding: 6px 14px;
+                                    margin-bottom: 18px;
+                                    font-size: 14px;
+                                    letter-spacing: 2px;
+                                }
+
+                                textarea {
+                                    padding: 6px 14px;
+                                    margin-bottom: 18px;
+                                    font-size: 14px;
+                                    letter-spacing: 2px;
+                                }
+                            }
+                        }
+
+                        &-bottom {
+                            &-left {
+                                padding: 16px 20px;
+
+                                .header {
+                                    margin-bottom: 18px;
+
+                                    h6 {
+                                        font-size: 16px !important;
+                                    }
+                                }
+
+                                .g-4 {
+                                    --bs-gutter-y: 0;
+                                }
+
+                                input {
+                                    width: 100%;
+                                    padding: 6px 14px;
+                                    margin-bottom: 18px;
+                                    font-size: 14px;
+                                    letter-spacing: 2px;
+                                }
+
+                                textarea {
+                                    padding: 6px 14px;
+                                    margin-bottom: 18px;
+                                    font-size: 14px;
+                                    letter-spacing: 2px;
+                                }
+                            }
+
+                            &-mid {
+                                padding: 16px 20px;
+
+                                .header {
+                                    margin-bottom: 18px;
+
+                                    h6 {
+                                        font-size: 16px !important;
+                                    }
+                                }
+
+                                .g-4 {
+                                    --bs-gutter-y: 0;
+                                }
+
+                                input {
+                                    width: 100%;
+                                    padding: 6px 14px;
+                                    margin-bottom: 18px;
+                                    font-size: 14px;
+                                    letter-spacing: 2px;
+                                }
+
+                                textarea {
+                                    padding: 6px 14px;
+                                    margin-bottom: 18px;
+                                    font-size: 14px;
+                                    letter-spacing: 2px;
+                                }
+                            }
+
+                            &-right {
+                                padding: 16px 20px;
+
+                                .header {
+                                    margin-bottom: 18px;
+
+                                    h6 {
+                                        font-size: 16px !important;
+                                    }
+                                }
+
+                                .g-4 {
+                                    --bs-gutter-y: 0;
+                                }
+
+                                input {
+                                    width: 100%;
+                                    padding: 6px 14px;
+                                    margin-bottom: 18px;
+                                    font-size: 14px;
+                                    letter-spacing: 2px;
+                                }
+
+                                textarea {
+                                    padding: 6px 14px;
+                                    margin-bottom: 18px;
+                                    font-size: 14px;
+                                    letter-spacing: 2px;
+                                }
+                            }
+                        }
+                    }
+
+                    .banner {
+                        padding: 12px 20px;
+
+                        &-header {
+
+                            h4 {
+                                font-size: 22px;
+                            }
+                        }
+
+                        &-img {
+                            padding: 16px 20px;
+
+                            .header {
+                                margin-bottom: 18px;
+
+                                h6 {
+                                    font-size: 16px !important;
+                                }
+                            }
+
+                            input {
+                                width: 100%;
+                                padding: 6px 14px;
+                                margin-bottom: 18px;
+                                font-size: 14px;
+                                letter-spacing: 2px;
+                            }
+                        }
+                    }
+
+                }
+            }
+        }
+    }
+
+}
+
+@include xl {
+
+    .cards {
+        &-top {
+            &-left {
+                &-text {
+                    padding: 30px;
+
+                    h3 {
+                        a {
+                            font-size: 1.5rem;
+
+                        }
+                    }
+                }
+
+            }
+
+            &-mid {
+                &-text {
+                    padding: 30px;
+
+                    h3 {
+                        a {
+                            font-size: 1.5rem;
+
+                        }
+                    }
+                }
+            }
+
+            &-right {
+                &-text {
+                    padding: 8px 10px;
+                }
+            }
+        }
+
+        &-bottom {
+            &-left {
+                &-text {
+                    top: 0;
+                }
+            }
+
+            &-right {
+                &-text {
+                    h6 {
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+
+    }
+
+    .picks {
+        &-left {
+            &-text {
+                padding: 30px;
+            }
+        }
+    }
+
+    .national {
+        padding: 80px 0;
+    }
+
+    .sports {
+        &-header {
+            h3 {
+                a {
+                    font-size: 1.8rem;
+                }
+            }
+        }
+    }
+
+    .politics {
+        &-header {
+            h3 {
+                a {
+                    font-size: 1.8rem;
+                }
+            }
+        }
+    }
+
+    .international {
+        padding: 80px 0;
+    }
+
+    .footer{
+       &-logo{
+        width: 100%;
+       }
+       &-designer{
+        margin-top: 0;
+       }
+    }
+}

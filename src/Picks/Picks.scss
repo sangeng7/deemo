@@ -1,0 +1,126 @@
+.picks {
+    padding-bottom: 80px ;
+
+    &-header {
+        padding-bottom: 60px;
+        
+        h3 {
+            a {
+                font-size: 2.4rem;
+                color: #33353b;
+                font-weight: 600;
+                position: relative;
+                display: inline-block;
+
+                &:hover {
+                    &::before {
+                        transition: 0.5s;
+                        width: 55%;
+                        background: #f1444a;
+                    }
+                }
+
+                &::before {
+                    content: '';
+                    position: absolute;
+                    width: 28%;
+                    height: 2px;
+                    background: #ff7a7f;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    bottom: -12px;
+                }
+            }
+
+        }
+    }
+    &-left {
+        position: relative;
+
+        &-img {
+
+            overflow: hidden;
+
+            img {
+                transition: 0.9s;
+
+                &:hover {
+                    transform: scale(1.1);
+
+                }
+            }
+        }
+
+        &-text {
+            width: 80%;
+            padding: 40px;
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            background-color: #fff;
+
+            .sub-heading {
+                a{
+                    font-size: 12px;
+                    color: #ff7a7f;
+    
+                    &:hover {
+                        color: #797979;
+                    }
+                }
+                
+            }
+
+            h3 {
+                a{
+                    font-size: 1.8rem;
+                    font-weight: 600;
+                    color: #33353b;
+                    &:hover{
+                        color: #ff7a7f;
+                    }
+                }
+              
+            }
+
+            p {
+                color: #797979;
+                font-weight: 600;
+            }
+        }
+    }
+
+    &-right{
+        &-text{
+            a{
+                font-size: 11px;
+                color: #33353b;
+                &:hover{
+                    color: #ff7a7f;
+                }
+            }
+            h4{
+                font-size: 1.2rem;
+                font-weight: 600;
+                &:hover{
+                    color: #ff7a7f;
+                }
+            }
+            p{
+                color: #797979;
+            }
+        }
+        &-img{
+            overflow: hidden;
+            img{
+                vertical-align: middle;
+                object-fit: cover;
+                transition: 0.9s;
+
+                &:hover{
+                transform: scale(1.1);
+                }
+            }
+        }
+    }
+}
