@@ -3,10 +3,19 @@
 @include xs {
 
     .header {
+        margin-bottom: 16px;
         &-top {
+            line-height: 50px;
+            .logo{
+                width: 50%;
+            }
+
             .social-icons {
                 ul {
                     justify-content: center;
+                    li{
+                        font-size: 12px;
+                    }
                 }
             }
 

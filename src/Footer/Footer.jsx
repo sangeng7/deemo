@@ -34,7 +34,7 @@ function Footer() {
                         </div>
                         <div className="col-lg-3 col-sm-12">
                             <div className="footer-designer text-center">
-                                <h5>Developed & designed by <span className=''><a href="https://webedgeinfotech.com/">WebEdge InfoTech</a></span></h5>
+                                <h5>Developed & designed by <span className=''><a href="">Tech Shayatri</a></span></h5>
                             </div>
                         </div>
                     </div>

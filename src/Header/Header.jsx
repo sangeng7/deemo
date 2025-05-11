@@ -5,6 +5,7 @@ import { faFacebookF, faGoogle, faInstagram, faLinkedin, faXTwitter } from '@for
 import { faMagnifyingGlass, faPhone } from '@fortawesome/free-solid-svg-icons'
 import { faPaperPlane } from '@fortawesome/free-solid-svg-icons'
 import { Routes, Route, Link } from "react-router-dom";
+// import All from '../All/All'
 import All from '../All/All'
 import InternationalChild from '../InternationalChild/InternationalChild'
 import Dashboard from '../Dashboard/Dashboard'
@@ -32,7 +33,7 @@ function Header() {
                             </div>
                             <div className="col-lg-4 col-sm-6 col-xs-6">
                                 <div className="logo">
-                                    <img className='w-100' src="\logo.png" alt="" />
+                                    <img className='w-100' src="logo.png" alt="" />
                                 </div>
                             </div>
                             <div className="col-lg-4 col-xs-4">
@@ -72,6 +73,7 @@ function Header() {
             </div>
 
             <Routes>
+                
                 <Route path="/" element={<All />} />
                 <Route path="/interChild" element={<InternationalChild />} />
                 <Route path="/admin" element={<Dashboard />} />
